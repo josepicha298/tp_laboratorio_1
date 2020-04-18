@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1587027018 source:c:\users\jose\desktop\utn\laboratorio tp1\funciones.c
 
-1587212338 source:c:\users\jose\desktop\utn\laboratorio tp1\main.c
+1587238355 source:c:\users\jose\desktop\utn\laboratorio tp1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"

@@ -51,7 +51,25 @@ int main()
             }
 
             printf("El resultado de %d * %d es: %d \n", x, y, multiplicacion(x, y));
-            printf("El factorial de %d es: %d y el factorial de %d es: %d\n\n", x, factorial(x), y, factorial(y));
+
+            if(x<0 && y>-1)
+            {
+
+                printf("No es posible sacar el factorial de %d por que no es un numero natural y el factorial de %d es: %d\n\n", x, y, factorial(y));
+
+            }
+            else if(y<0 && x>-1)
+            {
+                printf("No es posible sacar el factorial de %d por que no es un numero natural y el factorial de %d es: %d\n\n", y, x, factorial(x));
+            }
+            else if(x<0 && y<0)
+            {
+                printf("No es posible sacar el factorial, por que los numero ingresados no son natural\n\n");
+            }
+            else
+            {
+                printf("El factorial de %d es: %d y el factorial de %d es: %d\n\n", x, factorial(x), y, factorial(y));
+            }
             system("pause");
             system("cls");
             break;
